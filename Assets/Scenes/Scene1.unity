@@ -4528,7 +4528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: -445}
+  m_AnchoredPosition: {x: 0, y: -445}
   m_SizeDelta: {x: 75, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1439581139
@@ -4558,10 +4558,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1439581139}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623356cf87f0b174e96afd93fb63da6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5381f2f5f98d748bc97d09feb77debd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 912565686}
+  player: {fileID: 621663746}
   sceneName: Scene2
 --- !u!61 &1439581141
 BoxCollider2D:
