@@ -9,7 +9,7 @@ public class Scenes : MonoBehaviour
     public GameObject player;
     public string sceneName;
     private SceneController sc;
-
+    
     // Start is called before the first frame update
     void OnTriggerEnter2D(Collider2D other)
     {
